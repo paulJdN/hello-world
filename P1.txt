@@ -1,0 +1,35 @@
+Practica 1 : Descuvrir GIT y GITHUB
+Paul Jouslin de Noray
+
+git clone
+Este command nos permite principalmente para duplicar a un repositories existenete y clonarlo o copiarlo en local, en un nuevo repositorio/ en otra ubicacion.
+Logs : 
+
+git status
+Este command nos permite saber cual es el status del git de nuestro projecto. 
+Nos muestra el estado del directorio de trabajo.
+En este caso podemos ver si hay ficheros que tenemos que añadir (rojo) o si todo
+esta bien (verde). Ver los cambios preparados, los que no y los archivos.
+Logs :
+
+
+git add
+Este command nos permite añadir los ficheros y cambios en una lista intermedia para 
+prepararlos al commit. Recibe una ruta.
+Logs :
+
+git commit
+Añade los ficheros y cambios completamente al git. Es una confirmacion del add.
+Logs :
+
+
+git push
+Este command nos permite guardar los cambios echos y ponerle online en el github.
+Se puede subir los ommits desde la branch local hasta el repositorio git remoto.
+Logs :
+
+git checkout
+- Cambiar entre ramas y crear Ramas
+- viajar al un command antiguo (viajar en el tiempo)
+Logs :
+
