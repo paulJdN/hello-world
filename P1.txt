@@ -17,16 +17,29 @@ git add
 Este command nos permite añadir los ficheros y cambios en una lista intermedia para 
 prepararlos al commit. Recibe una ruta.
 Logs :
+ND
 
 git commit
 Añade los ficheros y cambios completamente al git. Es una confirmacion del add.
 Logs :
-
+git commit -m practica
+[main c74b088] practica
+ 1 file changed, 35 insertions(+)
+ create mode 100644 P1.txt
 
 git push
 Este command nos permite guardar los cambios echos y ponerle online en el github.
 Se puede subir los ommits desde la branch local hasta el repositorio git remoto.
 Logs :
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 807 bytes | 807.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/paulJdN/hello-world.git
+   48fe276..c74b088  main -> main
 
 git checkout
 - Cambiar entre ramas y crear Ramas
